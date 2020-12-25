@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #19a1ad;
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body .bg-top {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10.2%;
+  left: 23%;
+}
+
+body .bg-bottom {
+  position: absolute;
+  top: 51.5%;
+  left: 48.2%;
+}
+
+.card-container {
+  position: relative;
+  height: 375px;
+  box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+@media (min-width: 375px) {
+  .card-container {
+    width: 325px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-container {
+    width: 350px;
+  }
+}
+
+.card-container .top {
+  height: 141px;
+  background-image: url("../images/bg-pattern-card.svg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-container .middle {
+  background-color: #fff;
+  height: 144px;
+  text-align: center;
+}
+
+.card-container .middle p.name {
+  padding-top: 77px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.card-container .middle p.name span {
+  margin-left: 5px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.card-container .middle p.location {
+  margin-top: 11px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #707070;
+}
+
+.card-container .bottom {
+  background-color: #fff;
+  border-top: 1px solid #e7e7e7;
+  height: 90px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.card-container .bottom .stats {
+  flex: 1;
+  align-items: center;
+}
+
+.card-container .bottom .stats p {
+  color: #2d3248;
+  margin-top: 29px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-container .bottom .stats span {
+  margin-top: 6px;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  color: #707070;
+  letter-spacing: 1.5px;
+}
+
+.card-container img {
+  position: absolute;
+  left: 50%;
+  top: 37.5%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid #fff;
+}

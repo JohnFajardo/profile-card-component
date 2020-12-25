@@ -6,7 +6,7 @@ The goal was to build a profile component as close to the provided design by fol
 ![](screenshot.png)
 
 ## Running the project
-----
+
 * Clone this repo: `git clone git@github.com:ThatJohn/profile-card-component.git`.
 * cd into its directory: `profile-card-component`.
 * Install dependencies: `npm install`.
